@@ -1,2 +1,2 @@
 # Learning
-Learning to code in Julia, R, and Python
+Learning to code in Julia and R
