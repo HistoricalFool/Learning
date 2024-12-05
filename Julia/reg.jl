@@ -20,7 +20,7 @@ df.y_probit = df.x1 .- 0.5 .* df.x2 .+ 0.8 .* df.treated .> 0 # Binary outcome f
 
 # OLS Regression
 println("OLS Regression:")
-ols_model = lm(@formula(y_ols ~ x1 + x2 + treated), df)
+ols_model = lm(@formula(y_ols ~ x1 + x2 + treated),df)
 println(ols_model)
 
 # Diff-in-Diff Regression
